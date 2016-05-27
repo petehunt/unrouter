@@ -2,10 +2,15 @@
   "name": "unrouter",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/unrouter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "call": "^3.0.1",
+    "fbjs": "^0.8.3",
+    "react": "^15.1.0"
+  }
 }
